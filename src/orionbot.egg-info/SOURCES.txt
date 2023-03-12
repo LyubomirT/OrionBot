@@ -1,8 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-setup.cfg
-src/orionbot.egg-info/PKG-INFO
-src/orionbot.egg-info/SOURCES.txt
-src/orionbot.egg-info/dependency_links.txt
-src/orionbot.egg-info/top_level.txt

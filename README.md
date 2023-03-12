@@ -88,15 +88,3 @@ print(bot.get_response("Have you seen The Matrix?"))  # "I'm sorry, I didn't und
 ```
 
  You can find more information on our [GitHub repository](https://github.com/LyubomirT/OrionBot)
-
-
-## Table of Contents
- 
- - [Overview](README.md)
- - [Training Guide](TRAINING.md)
- - [The Chatbot class](CHATBOTCLASS.md)
- - [Preprocessing Method](PREPROCESSING.md)
- - [Training Method](TRAINMETHOD.md)
- - [Train from an existing dataset](DATASETTRAINING.md)
- - [Training Mode](TRAININGMODE.md)
- - ["No Response Message"](NORESPONSE.md)
