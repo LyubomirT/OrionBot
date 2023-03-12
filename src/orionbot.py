@@ -9,6 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 nltk.download('punkt')
 nltk.download('wordnet')
+nltk.download("stopwords")
 
 class Chatbot:
     def __init__(self, name, lemmatizer=None, stopwords=None, data_file=None):

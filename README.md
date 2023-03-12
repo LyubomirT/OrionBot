@@ -87,4 +87,4 @@ print(bot.get_response("What's your favorite movie?"))  # "My favorite movie is 
 print(bot.get_response("Have you seen The Matrix?"))  # "I'm sorry, I didn't understand that."
 ```
 
- You can find more information on our [GitHub repository](https://github.com/LyubomirT/OrionBot)
+You can find more information on our [GitHub repository](https://github.com/LyubomirT/OrionBot)
