@@ -85,3 +85,4 @@ class Chatbot:
 
     def train_from_default_file(self):
         self.train_from_file(self.data_file)
+
