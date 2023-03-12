@@ -1,4 +1,4 @@
-# OrionBot Preprocessing
+# Preprocessing
 
 OrionBot provides a powerful preprocessing functionality to convert raw input text into a normalized format that can be used for training and generating responses. This functionality is implemented in the `_preprocess` method of the `Chatbot` class, and uses the Natural Language Toolkit (NLTK) library.
 

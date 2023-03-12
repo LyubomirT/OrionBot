@@ -1,4 +1,4 @@
-# Training the OrionBot Chatbot
+# Training the Chatbot
 
 The `Chatbot` class in OrionBot has a built-in training mechanism that allows you to add new training data to the chatbot and improve its accuracy over time. In this document, we'll go over the various ways you can train your chatbot.
 

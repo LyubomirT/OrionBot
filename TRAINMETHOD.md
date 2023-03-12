@@ -1,5 +1,5 @@
 
-# OrionBot - Train Method
+# Train Method
 
 The `train` method of the `Chatbot` class is used to train the chatbot on new input and response pairs. Here's how you can use it:
 ```python
