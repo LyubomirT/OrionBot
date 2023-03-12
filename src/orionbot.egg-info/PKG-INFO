@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: orionbot
+Version: 0.7.9
+Summary: A lightweight library for training your own Chatbot, without writing a lot of code. This offers some customization options as well as simple usage.
+Home-page: https://github.com/LyubomirT/OrionBot
+Author: Lyubomir Ternavskiy
+Author-email: ternavski103@gmail.com
+Project-URL: Bug Tracker, https://github.com/LyubomirT/OrionBot/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# OrionBot
