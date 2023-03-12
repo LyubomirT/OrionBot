@@ -1,6 +1,7 @@
 import json
 import os.path
 from collections import defaultdict
+import os
 
 import nltk
 from nltk.stem import WordNetLemmatizer
@@ -10,6 +11,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download("stopwords")
+
+os.system("clear")
 
 class Chatbot:
     def __init__(self, name, lemmatizer=None, stopwords=None, data_file=None):
