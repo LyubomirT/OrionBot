@@ -1,5 +1,5 @@
 # OrionBot: A Python bot training framework
-OrionBot is a Python library that allows you to easily train and run chatbots using the TfidfVectorizer and cosine similarity algorithms.
+OrionBot is a Python library that allows you to easily train and run chatbots, fully customizable.
 
 ## Installation
 To install OrionBot, simply use pip:
