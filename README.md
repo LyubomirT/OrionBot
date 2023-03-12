@@ -90,4 +90,5 @@ print(bot.get_response("Have you seen The Matrix?"))  # "I'm sorry, I didn't und
  You can find more information on our [GitHub repository](https://github.com/LyubomirT/OrionBot)
 
  ## Table of Contents
+ 
  - [Training Guide](TRAINING.md)
