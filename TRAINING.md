@@ -1,3 +1,8 @@
+---
+title: Training Tutorial
+layout: template
+filename: TRAINING.md
+--- 
 
 # Training the OrionBot Chatbot
 
