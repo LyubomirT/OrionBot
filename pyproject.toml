@@ -1,0 +1,8 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "scikit-learn>=1.2.2",
+    "nltk>=3.8.1",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
