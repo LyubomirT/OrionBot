@@ -46,3 +46,13 @@ The `_preprocess` method of the `Chatbot` class takes one parameter:
 ## Returns
 
 The `_preprocess` method of the `Chatbot` class returns a string of space-separated tokens that represent the preprocessed text.
+
+## Table of Contents
+ 
+ - [Training Guide](TRAINING.md)
+ - [The Chatbot class](CHATBOTCLASS.md)
+ - [Preprocessing Method](PREPROCESSING.md)
+ - [Training Method](TRAINMETHOD.md)
+ - [Train from an existing dataset](DATASETTRAINING.md)
+ - [Training Mode](TRAININGMODE.md)
+ - ["No Response Message"](NORESPONSE.md)

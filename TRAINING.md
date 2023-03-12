@@ -64,3 +64,13 @@ bot.set_no_response_message("I'm sorry, I still don't understand. Could you plea
 ```
 
 Now, if the chatbot doesn't know how to respond to a user's input, it will send the message you specified.
+
+## Table of Contents
+ 
+ - [Training Guide](TRAINING.md)
+ - [The Chatbot class](CHATBOTCLASS.md)
+ - [Preprocessing Method](PREPROCESSING.md)
+ - [Training Method](TRAINMETHOD.md)
+ - [Train from an existing dataset](DATASETTRAINING.md)
+ - [Training Mode](TRAININGMODE.md)
+ - ["No Response Message"](NORESPONSE.md)
