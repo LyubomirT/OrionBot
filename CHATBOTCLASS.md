@@ -77,6 +77,7 @@ Trains the bot from the default dataset, which can also be specified in the clas
 
 ## Table of Contents
  
+ - [Overview](README.md)
  - [Training Guide](TRAINING.md)
  - [The Chatbot class](CHATBOTCLASS.md)
  - [Preprocessing Method](PREPROCESSING.md)

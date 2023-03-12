@@ -49,6 +49,7 @@ The `_preprocess` method of the `Chatbot` class returns a string of space-separa
 
 ## Table of Contents
  
+ - [Overview](README.md)
  - [Training Guide](TRAINING.md)
  - [The Chatbot class](CHATBOTCLASS.md)
  - [Preprocessing Method](PREPROCESSING.md)

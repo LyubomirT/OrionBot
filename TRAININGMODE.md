@@ -32,6 +32,7 @@ It's important to note that training mode is enabled by default, so there's no n
 
 ## Table of Contents
  
+ - [Overview](README.md)
  - [Training Guide](TRAINING.md)
  - [The Chatbot class](CHATBOTCLASS.md)
  - [Preprocessing Method](PREPROCESSING.md)

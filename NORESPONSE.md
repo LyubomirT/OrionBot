@@ -28,6 +28,7 @@ Note that you can set any message you like as the "No Response" message. This ca
 
 ## Table of Contents
  
+ - [Overview](README.md)
  - [Training Guide](TRAINING.md)
  - [The Chatbot class](CHATBOTCLASS.md)
  - [Preprocessing Method](PREPROCESSING.md)

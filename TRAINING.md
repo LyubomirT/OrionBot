@@ -67,6 +67,7 @@ Now, if the chatbot doesn't know how to respond to a user's input, it will send 
 
 ## Table of Contents
  
+ - [Overview](README.md)
  - [Training Guide](TRAINING.md)
  - [The Chatbot class](CHATBOTCLASS.md)
  - [Preprocessing Method](PREPROCESSING.md)

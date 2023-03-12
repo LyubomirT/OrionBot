@@ -37,6 +37,7 @@ In the example above, we create a new `Chatbot` instance called `my_bot` and the
 
 ## Table of Contents
  
+ - [Overview](README.md)
  - [Training Guide](TRAINING.md)
  - [The Chatbot class](CHATBOTCLASS.md)
  - [Preprocessing Method](PREPROCESSING.md)

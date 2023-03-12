@@ -92,6 +92,7 @@ print(bot.get_response("Have you seen The Matrix?"))  # "I'm sorry, I didn't und
 
 ## Table of Contents
  
+ - [Overview](README.md)
  - [Training Guide](TRAINING.md)
  - [The Chatbot class](CHATBOTCLASS.md)
  - [Preprocessing Method](PREPROCESSING.md)
