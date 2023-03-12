@@ -1,4 +1,3 @@
-
 # Training Mode
 
 `Chatbot` instances created using the OrionBot library come with training mode enabled by default. Training mode is a feature that allows users to provide feedback to the chatbot whenever it responds with a default "no response message". In this mode, the chatbot will prompt the user to provide an appropriate response to their input if it failed to provide a relevant response. This response is then added to the training data, allowing the chatbot to learn and improve its responses over time.

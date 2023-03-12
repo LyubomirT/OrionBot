@@ -1,4 +1,3 @@
-
 # Setting the "No Response" message
 
 The `set_no_response_message()` method allows you to customize the default message that the `Chatbot` object returns when it is unable to find a suitable response. By default, the message is "I'm sorry, I did not understand what you just said. What should I have said?"

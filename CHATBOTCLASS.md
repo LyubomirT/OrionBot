@@ -1,4 +1,3 @@
-
 # Chatbot Class
 
 The `Chatbot` class is the core of the OrionBot library. It provides the functionality to train a bot with sample text data and to respond to user input with an appropriate response.

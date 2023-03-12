@@ -1,4 +1,3 @@
-
 # Training from Existing Dataset
 
 `train_from_file(file_path)` and `train_from_default_file()` methods in `Chatbot` class are designed to help you train your chatbot using an existing dataset. You can pass the path of the file containing the dataset or use the default file path `training_data_qbot.json` that comes with the package.
