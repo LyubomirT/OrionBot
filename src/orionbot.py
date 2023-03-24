@@ -12,7 +12,13 @@ nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download("stopwords")
 
-os.system("clear")
+import platform
+systemPlatform = platform.system()
+
+if systemPlatform == "Windows":
+    os.system("cls")
+if systemPlatform == "Linux":
+    os.system("clear")
 
 class Chatbot:
     def __init__(self, name, lemmatizer=None, stopwords=None, data_file=None):
