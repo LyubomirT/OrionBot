@@ -35,6 +35,10 @@ class Chatbot:
         if os.path.exists(self.data_file):
             with open(self.data_file, 'r') as f:
                 self.training_data.update(json.load(f))
+                try:
+                    self.vectorizer.fit_transform(list(self.training_data.keys()))
+                except ValueError as e:
+                    print("The chatbot was not yet trained!")
 
     def _preprocess(self, text):
         words = nltk.word_tokenize(text.lower())
@@ -49,9 +53,15 @@ class Chatbot:
             with open(self.data_file, 'w') as f:
                 json.dump(self.training_data, f)
 
-            self.vectorizer.fit_transform(list(self.training_data.keys()))
+            try:
+                self.vectorizer.fit_transform(list(self.training_data.keys()))
+            except ValueError as e:
+                print("The chatbot was not yet trained!")
 
     def _get_response(self, input_text):
+        if not self.vectorizer.vocabulary_:
+            raise ValueError("The chatbot was not yet trained!")
+
         input_text = self._preprocess(input_text)
         input_vector = self.vectorizer.transform([input_text])
         similarities = cosine_similarity(input_vector, self.vectorizer.transform(list(self.training_data.keys())))[0]
@@ -65,7 +75,13 @@ class Chatbot:
             return self.no_response_message
 
     def get_response(self, input_text):
-        response = self._get_response(input_text)
+        response = None
+
+        try:
+            response = self._get_response(input_text)
+        except ValueError as e:
+            print("The chatbot was not yet trained!")
+            response = self.no_response_message
 
         if response == self.no_response_message and self.training_enabled:
             new_response = input(f"{self.no_response_message} ")
@@ -95,4 +111,3 @@ class Chatbot:
 
     def train_from_default_file(self):
         self.train_from_file(self.data_file)
-
