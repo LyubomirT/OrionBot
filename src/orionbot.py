@@ -35,9 +35,9 @@ class Chatbot:
         if os.path.exists(self.data_file):
             with open(self.data_file, 'r') as f:
                 self.training_data.update(json.load(f))
-                try:
+                if self.training_data:
                     self.vectorizer.fit_transform(list(self.training_data.keys()))
-                except ValueError as e:
+                else:
                     print("The chatbot was not yet trained!")
 
     def _preprocess(self, text):
